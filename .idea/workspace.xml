@@ -1,4 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/satellite-star/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/astro.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/guides/example.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/guides/installazione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/guides/licenza.md" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/license.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/index.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/index.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/installazione.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/licenza.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/reference/example.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GoodWitchLalya"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/goodwitchlalya/Lalyan-Cosmetic-Core-Documentation.git",
+    "accountId": "be82a4af-ec3e-440e-a6e3-86d3ba728a8e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="38u4Y3rM6WGutl0HRn76trtrPrZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="" />
+      <created>1769636176424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769636176424</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1769636271448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769636271449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
 </project>

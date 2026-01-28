@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://goodwitchlalya.github.io',
-    base: '/Lalyan-Cosmetic-Core-Site',
+    base: '/Lalyan-Cosmetic-Core-Documentation',
     integrations: [
        starlight({
           title: 'LCC Documentation',
@@ -14,7 +14,7 @@ export default defineConfig({
              {
                 icon: 'github',
                 label: 'GitHub',
-                href: 'https://github.com/goodwitchlalya/Lalyan-Cosmetic-Core-Site'
+                href: 'https://github.com/goodwitchlalya/Lalyan-Cosmetic-Core-Documentation'
              }
           ],
           sidebar: [

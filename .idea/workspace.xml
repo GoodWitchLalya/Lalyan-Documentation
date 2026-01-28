@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7110536a-4240-4d73-97da-86c001795d9e" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/licenza.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/guides/licenza.md" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/guides/licenza.md" afterDir="false" />
-    </list>
+    <list default="true" id="7110536a-4240-4d73-97da-86c001795d9e" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +14,6 @@
     <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/satellite-star" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -133,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769632203056</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <option name="closed" value="true" />
+      <created>1769633259925</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1769633259925</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +158,7 @@
     <MESSAGE value="Move deploy workflow to lcc-site and update site URL" />
     <MESSAGE value="Fix site URL in astro config" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>

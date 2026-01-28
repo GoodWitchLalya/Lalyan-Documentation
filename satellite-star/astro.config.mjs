@@ -8,18 +8,18 @@ export default defineConfig({
     base: '/Lalyan-Documentation',
     integrations: [
        starlight({
-          title: 'LCC Documentation',
+          title: 'Lalyan Documentation',
           // Modificato qui: ora è una lista [] invece di un oggetto {}
           social: [
              {
                 icon: 'github',
                 label: 'GitHub',
-                href: 'https://github.com/goodwitchlalya/Lalyan-Documentation'
+                href: 'https://github.com/goodwitchlalya'
              }
           ],
           sidebar: [
              {
-                label: 'Note Legali',
+                label: 'Legal Notes',
                 items: [
                    { label: 'License (AGPLv3)', slug: 'license' },
                 ],

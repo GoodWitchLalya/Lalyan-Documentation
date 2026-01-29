@@ -28,11 +28,21 @@ export default defineConfig({
           ],
           sidebar: [
              {
-                label: 'Legal Notes',
-                items: [
-                   { label: 'License (AGPLv3)', slug: 'license' },
-                ],
+                 label: 'Docs',
+                 translations: { it: 'Docs'},
+                 items: [
+                    { label: 'Mods Index', translations: { it: 'Indice Mods'}, slug: 'mods' },
+                    { label: 'Lalyan Cosmetic Core', translations: { it: 'Lalyan Cosmetic Core'}, slug: 'mod/lalyan-cosmetic-core' },
+                 ],
              },
+             {
+
+                 label: 'Legal Notes',
+                 translations: { it: 'Note Legali'},
+                 items: [
+                    { label: 'License (AGPLv3)', translations: { it: 'Licenza (AGPLv3)'}, slug: 'license' },
+                 ],
+             }
           ],
        }),
     ],

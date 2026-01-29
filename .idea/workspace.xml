@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods/lalyan-cosmetic-core.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/index.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/license.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mods.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mods/lalyan-cosmetic-core.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/astro.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/index.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/index.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/license.md" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/license.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/mods-index.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods.mdx" afterDir="false" />
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Site completed">
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,11 +89,20 @@
       <option name="project" value="LOCAL" />
       <updated>1769636818539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Site completed">
+      <option name="closed" value="true" />
+      <created>1769704259340</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769704259340</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Site completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Site completed" />
   </component>
 </project>

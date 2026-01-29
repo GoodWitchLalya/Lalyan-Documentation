@@ -14,6 +14,7 @@ export default defineConfig({
     integrations: [
        starlight({
           title: 'Lalyan Documentation',
+          customCss: ['./src/styles/custom.css'],
           defaultLocale: 'en',
           locales: {
               en: { label: 'English', lang: 'en' },

@@ -1,0 +1,11 @@
+/* Forza la visualizzazione del pulsante menu mobile anche nel template splash */
+[data-template="splash"] .mobile-menu-button {
+  display: flex !important;
+}
+
+/* Opzionale: se vuoi che la sidebar sia visibile anche su desktop nel template splash */
+/*
+[data-template="splash"] .sidebar-pane {
+  display: block !important;
+}
+*/

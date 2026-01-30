@@ -41,6 +41,7 @@ export default defineConfig({
                  label: 'Lalyan Cosmetic Core',
                  translations: { it: 'Lalyan Cosmetic Core'},
                  items: [
+                    { label: 'Showcase', translations: { it: 'Presentazione'}, slug: 'mod/lalyan-cosmetic-core/showcase' },
                     { label: 'Documentation', translations: { it: 'Documentazione'}, slug: 'mod/lalyan-cosmetic-core' },
                     { label: 'Resources', translations: { it: 'Risorse'}, slug: 'mod/lalyan-cosmetic-core/resources' },
                  ],

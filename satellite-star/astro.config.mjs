@@ -53,8 +53,8 @@ export default defineConfig({
                  items: [
                     { label: 'Showcase', translations: { it: 'Presentazione'}, slug: 'mod/ancient-golemancy' },
                     { label: 'Lore', translations: { it: 'Lore'}, slug: 'mod/ancient-golemancy/lore' },
-                    { label: 'Guide', translations: { it: 'Documentazione'}, slug: 'mod/ancient-golemancy/guide' },
-                    { label: 'Documentation', translations: { it: 'Documentazione Tecnica'}, slug: 'mod/ancient-golemancy/documentation' },
+                    { label: 'Guide', translations: { it: 'Guida'}, slug: 'mod/ancient-golemancy/guide' },
+                    { label: 'Documentation', translations: { it: 'Documentazione'}, slug: 'mod/ancient-golemancy/documentation' },
                     { label: 'Resources', translations: { it: 'Risorse'}, slug: 'mod/ancient-golemancy/resources' },
                  ],
              },

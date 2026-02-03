@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Update documentation headers and license footers&#10;&#10;- Apply color styling to headers in Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Add and correct license footers across English and Italian documentation.&#10;- Update Italian sidebar translations for Ancient Golemancy in `astro.config.mjs`.">
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods.mdx" afterDir="false" />
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Add Ancient Golemancy to Italian mods index&#10;&#10;- Add Ancient Golemancy entry to `src/content/docs/it/mods.mdx`.&#10;- Fix indentation in `src/content/docs/en/mods.mdx`.">
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/documentation.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/resources.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/resources.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/showcase.mdx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mods.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mods.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770114634056</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add Ancient Golemancy to Italian mods index&#10;&#10;- Add Ancient Golemancy entry to `src/content/docs/it/mods.mdx`.&#10;- Fix indentation in `src/content/docs/en/mods.mdx`.">
+      <option name="closed" value="true" />
+      <created>1770114857447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1770114857447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +210,7 @@
     <MESSAGE value="Add Lalyan Cosmetic Core showcase and update documentation pages&#10;&#10;- Create showcase pages in English and Italian&#10;- Update sidebar configuration to include showcase link&#10;- Rename documentation files to .mdx and add headers&#10;- Update titles and headers in resources pages&#10;- Move preview image to showcase directory" />
     <MESSAGE value="Add Ancient Golemancy and refactor Lalyan Cosmetic Core pages&#10;&#10;- Add Ancient Golemancy mod section including Showcase, Lore, Guide, Documentation, and Resources pages.&#10;- Add Ancient Golemancy showcase images and update mods index.&#10;- Refactor Lalyan Cosmetic Core structure:&#10;  - Move documentation content to `documentation.mdx`.&#10;  - Convert main page to Showcase and remove old showcase file.&#10;  - Update sidebar navigation links." />
     <MESSAGE value="Update documentation headers and license footers&#10;&#10;- Apply color styling to headers in Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Add and correct license footers across English and Italian documentation.&#10;- Update Italian sidebar translations for Ancient Golemancy in `astro.config.mjs`." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update documentation headers and license footers&#10;&#10;- Apply color styling to headers in Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Add and correct license footers across English and Italian documentation.&#10;- Update Italian sidebar translations for Ancient Golemancy in `astro.config.mjs`." />
+    <MESSAGE value="Add Ancient Golemancy to Italian mods index&#10;&#10;- Add Ancient Golemancy entry to `src/content/docs/it/mods.mdx`.&#10;- Fix indentation in `src/content/docs/en/mods.mdx`." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ancient Golemancy to Italian mods index&#10;&#10;- Add Ancient Golemancy entry to `src/content/docs/it/mods.mdx`.&#10;- Fix indentation in `src/content/docs/en/mods.mdx`." />
   </component>
 </project>

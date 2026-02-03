@@ -1,0 +1,104 @@
+---
+title: Ancient Golemancy
+---
+## Guide
+<br/>
+<br/>
+
+An automation mod for Hytale that allows building solutions to logistical problems, while trying to remain vanilla flavored
+
+This page is meant for people that want to learn how the mod works
+This is not an Addon Tutorial!
+
+## <span style="color:#3598db">Introduction</span>
+
+While wandering around the world, you'll find a structure with Lost Civilization banners and a lot of Green Crystals. Those are the ancient ruins
+
+Inside the structure you'll find the Runic Table, used to craft all items of the mod, some rudimental golems and various loot chests.
+
+You start your golemancy journey, you need 2 things:
+- A golem (duh)
+- A runic tablet (for now, a basic one will suffice)
+
+## <span style="color:#3598db">Goals</span>
+
+The runic tablet is the most important part, since it's used to assign goals to the golem.
+
+When pressing the `secondary action` key, you'll open the tablet GUI. Here you'll see a plus button, that's for adding a new goal entry.
+
+After pressing it, you'll see a dropdown and a trash button. The trash button removes the entry, the dropdown allows you to select the goal.
+Goals are followed sequentially and in loop, when one goal is finished the next one starts, at the end of the line the goals loop back to the first!
+
+To assign a goal list to the golem, press `use` while holding the tablet and looking at the golem
+
+There are various kinds of goals, here's a list of them with documentation:
+
+### <span style="color:#236fa1">Drop Items</span>
+
+The golem will drop all items in its inventory that match the filter, and will drop them at its position.
+
+UI Configuration:
+- IsWhitelist checkbox, toggles filters from blacklist to whitelist
+- FilterManager button, opens the filter manager (see sidebar)
+
+### <span style="color:#236fa1">Follow Owner</span>
+
+The golem will follow its owner. Owner is defined as "the player that used the tablet on the golem last"
+
+UI does not have any configs
+
+### <span style="color:#236fa1">Harvest Crop</span>
+
+The golem will try to harvest the crop at the selected position, and will automatically put the items in the inventory
+
+UI Configuration:
+- Target button, toggles target selector mode in the tablet (see sidebar)
+
+### <span style="color:#236fa1">Mine Area</span>
+
+The golem will mine all blocks within Corner1 and Corner2, with depth Depth. If the corners are in different Y levels, all blocks in that area will be mined, then the golem will mine an additional "depth - 1" layers down
+
+UI Configuration:
+- Corner2 Target button: toggles target selector mode in the tablet (see sidebar)
+- Depth input field: selects depth, only integers allowed, minimum value 1
+- IsWhitelist checkbox, toggles filters from blacklist to whitelist
+- FilterManager button, opens the filter manager (see sidebar). These filters are only meaningful if the selected item has a block
+- Corner1 Target button: toggles target selector mode in the tablet (see sidebar)
+
+### <span style="color:#236fa1">Move Item</span>
+
+The golem will either take items from the storage of the block into its inventory, or reverse. If the block is a processing bench, it will try to turn it on
+
+UI Configuration:
+- Deposit Checkbox: toggles between taking (default) and depositing (checked) items
+- IsWhitelist checkbox, toggles filters from blacklist to whitelist
+- FilterManager button, opens the filter manager (see sidebar)
+- Target button: toggles target selector mode in the tablet (see sidebar)
+
+### <span style="color:#236fa1">Move To Block</span>
+
+The golem will pathfind from itself to the target goal, and will try moving to the target block. Pathfinding uses A* so it should be able to move around obstacles
+
+UI Configuration:
+- Target button: toggles target selector mode in the tablet (see sidebar)
+
+### <span style="color:#236fa1">Pickup Items</span>
+
+The golem will locate all dropped items in a radius around itself, and will pathfind to them to pick them up and put them in its inventory
+
+UI Configuration:
+- Radius input field: selects radius, max 1 decimal place, minimum value 0.1 max value 5 (this is expressed in blocks)
+- IsWhitelist checkbox, toggles filters from blacklist to whitelist
+- FilterManager button, opens the filter manager (see sidebar)
+
+
+## <span style="color:#3598db">FilterManager</span>
+
+The filter manager are 2 pages that handle filter configuration. When pressing the FilterManager button, a side panel will open with a plus button. Pressing the button will add a new filter slot with default item "Rock_Stone"
+
+Right-clicking on the filter will delete it, while left-clicking will open a list of all items in the game under it. The item panel has a search bar. Clicking on an item will set it as a filter, while hovering over it will show the item name
+
+## <span style="color:#3598db">Target Selector Mode</span>
+
+When pressing on a target button, the tablet will switch to target selector mode and will close the GUI. While in this mode, the GUI cannot be opened, but clicking on any block will set that block's position as the target for the goal.
+After selecting a target, re-using the tablet will resume normal GUI function

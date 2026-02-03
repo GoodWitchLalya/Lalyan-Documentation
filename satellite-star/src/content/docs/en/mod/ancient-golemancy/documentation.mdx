@@ -1,0 +1,94 @@
+---
+title: Ancient Golemancy
+---
+
+## Documentation
+<br/>
+<br/>
+
+This page is meant for people that want to dive into the Goal System, to see how it works or to make an addon.
+If you aren't one of those people, you are in the wrong page. This is not a Gameplay Tutorial!
+Everything you see here REQUIRES a java plugin, you cannot do this from JSON onlu
+
+## Custom Tablets
+
+Runic Tablets are a normal item with certain interactions + a single line of code. To make one simply
+
+- Make the item as normal
+- Add these interactions:
+
+``` json
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "AG_OpenTablet",
+          "CommandLimit": 5,
+          "PageTitle": "Basic Runic Tablet"
+        },
+        {
+          "Type": "AG_SelectVector3d"
+        },
+        {
+          "Type": "AG_SelectVector3i"
+        }
+      ]
+    },
+    "Use": {
+      "Interactions": [
+        {
+          "Type": "AG_ApplyGoals"
+        }
+      ]
+    }
+  }
+```
+
+You can change the Interaction key, but I suggest keeping them the same for consistency.
+
+`AG_OpenTablet`: The main tablet feature, you can specify here how many goals the tablet can hold, and the name to display on top
+
+`AG_SelectVector3d` and `AG_SelectVector3i`: These are only called when clicking on a Target select button in the GUI. They handle assigning positions to the goal
+
+`AG_ApplyGoals`: When called while looking at a golem, will apply the stored goals to the golem, and will also assign you as the golem's owner
+
+Now, you need to register the tablet in code. To do so, simply add this line in your mod's setup:
+`GoalHandlerSystem.registerTablet(<Item_ID>);`
+Replace Item_ID with the tablet's id. This is needed internally for various stuff
+
+## Custom Golems
+Any entity can be a golem, you just need to register the role in your setup function using `ApplyGoalsToGolem.registerGolemRole(<Role_Id>);`
+
+## Custom Goals
+
+This is the most complicated part. The system tries to be as simply and as modular as possible, however some stuff might not be doable yet.
+
+### The Goal Class
+
+This is where the code called when handling the goal is. The class should extend `AbstractGoal` or any of its inheritors
+Each goal needs:
+- An Unique String ID
+- A codec that stores all stored data
+- Various functions that handle different cases:
+  - `apply`: this is the main logic, it's called the first time the goal is called (so once per loop), and each time the `shouldRebuild` function is true
+  - `tick`: an optional function, called each tick the goal is active
+  - `isCompleted`: the exit condition, when this returns true the golem moves to the next goal
+  - `shouldRebuild`: sometimes you want to reset the goal and change values without moving to the next one. This function forces the goal to recall `apply` without progressing to the next goal
+  - `onComplete`: called when the `isCompleted` function returns true. Mostly used for eventual clean up
+  - `id`: The unique id of the goal. Used internally but is also used for some asset things
+  - `clone`: A function that returns a new instance of the goal with the same exact data
+  - `buildEventUI`: this function is a bit of a misnomer, but it handles all things GUI, included but not limited to: "event handling, dynamic value setting etc..."
+  - `spawnHighlight`: called each tick when holding a tablet, its main purpose is spawning particles on relevant blocks
+  - `loadFromData`: handles loading changes from the UI Data
+
+After making the class, you need to register the goal. To do so, you need to go in your mod's setup function, and call AncientGolemancy.registerComponent(),
+passing in the constructor the ID of the goal, the class and the codec.
+
+After doing so, the Goal exists. Congrats! Now the "fun" part: The GUI
+
+You need to make a ui file in `UI/Custom/Pages/Goals`, and call the file `<Goal_Id>.ui`
+I highly suggest you use the existing files as a reference
+
+You also need to add the localization. The goal localization key is: `ag_server.goal.<Goal_Id>`
+
+This should be enough. The Documentation will continue to be updated when needed

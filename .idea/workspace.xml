@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/showcase.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/showcase.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/assets/mods/ancient-golemancy/showcase/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/assets/mods/ancient-golemancy/showcase/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/assets/mods/ancient-golemancy/showcase/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/assets/mods/ancient-golemancy/showcase/img4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/assets/mods/ancient-golemancy/showcase/img5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/ancient-golemancy.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/ancient-golemancy/documentation.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/ancient-golemancy/guide.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/ancient-golemancy/lore.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/ancient-golemancy/resources.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/documentation.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/satellite-star/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/astro.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/assets/mods/lalyan-cosmetic-core/preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/assets/mods/lalyan-cosmetic-core/showcase/preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core.md" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/resources.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/resources.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core.md" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/resources.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/resources.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/showcase.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mods.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +59,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Reiko/IdeaProjects/Lalyan-Cosmetic-Core-Site/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core",
+    "last_opened_file_path": "C:/Users/Reiko/IdeaProjects/Lalyan-Cosmetic-Core-Site/satellite-star/src/assets/mods/ancient-golemancy/showcase",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods\ancient-golemancy\showcase" />
+      <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\en\mod\ancient-golemancy" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\it\mod\lalyan-cosmetic-core" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods\lalyan-cosmetic-core" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\it\mod" />
-      <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\it\mods" />
-      <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\it" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods\lalyan-cosmetic-core\showcase" />
@@ -166,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769725599011</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Lalyan Cosmetic Core showcase and update documentation pages&#10;&#10;- Create showcase pages in English and Italian&#10;- Update sidebar configuration to include showcase link&#10;- Rename documentation files to .mdx and add headers&#10;- Update titles and headers in resources pages&#10;- Move preview image to showcase directory">
+      <option name="closed" value="true" />
+      <created>1769789209837</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1769789209837</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +196,7 @@
     <MESSAGE value="Add custom CSS for splash template and update mods headers" />
     <MESSAGE value="Add Lalyan Cosmetic Core resources and update sidebar configuration&#10;&#10;- Create resources page for Lalyan Cosmetic Core in English and Italian&#10;- Reorganize sidebar to include a dedicated section for Lalyan Cosmetic Core&#10;- Rename license files from .md to .mdx" />
     <MESSAGE value="Add Lalyan Cosmetic Core preview image and cleanup mods index&#10;&#10;- Add `preview.png` asset for Lalyan Cosmetic Core&#10;- Remove placeholder comments and fix indentation in English and Italian mods pages&#10;- Update IDE workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lalyan Cosmetic Core preview image and cleanup mods index&#10;&#10;- Add `preview.png` asset for Lalyan Cosmetic Core&#10;- Remove placeholder comments and fix indentation in English and Italian mods pages&#10;- Update IDE workspace configuration" />
+    <MESSAGE value="Add Lalyan Cosmetic Core showcase and update documentation pages&#10;&#10;- Create showcase pages in English and Italian&#10;- Update sidebar configuration to include showcase link&#10;- Rename documentation files to .mdx and add headers&#10;- Update titles and headers in resources pages&#10;- Move preview image to showcase directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lalyan Cosmetic Core showcase and update documentation pages&#10;&#10;- Create showcase pages in English and Italian&#10;- Update sidebar configuration to include showcase link&#10;- Rename documentation files to .mdx and add headers&#10;- Update titles and headers in resources pages&#10;- Move preview image to showcase directory" />
   </component>
 </project>

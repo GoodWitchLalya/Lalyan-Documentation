@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Add Issues section to mod documentation pages&#10;&#10;- Add &quot;Issues&quot; section to Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Include contact information and bug reporting guidelines in English and Italian.">
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/components/KofiWidget/KofiWidget_en.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/satellite-star/src/components/KofiWidget/KofiWidget_it.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/ancient-golemancy.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/ancient-golemancy.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/ancient-golemancy.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/ancient-golemancy.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/index.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/index.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/index.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/index.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +50,20 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Reiko/IdeaProjects/Lalyan-Cosmetic-Core-Site/satellite-star/src/content/docs/it/mod",
+    "last_opened_file_path": "E:/Users/Reiko/Progetti/IdeaProjects/Lalyan-Cosmetic-Core-Site/satellite-star/src/components",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Reiko\Progetti\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\components" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\it\mod" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods\ancient-golemancy\showcase" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\en\mod\ancient-golemancy" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\content\docs\it\mod\lalyan-cosmetic-core" />
-      <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods\lalyan-cosmetic-core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Reiko\Progetti\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\components\KofiWidget" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods\ancient-golemancy\showcase" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods\lalyan-cosmetic-core\showcase" />
       <recent name="C:\Users\Reiko\IdeaProjects\Lalyan-Cosmetic-Core-Site\satellite-star\src\assets\mods" />
@@ -228,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770144842928</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add email subject guidelines to mod documentation&#10;&#10;- Update Ancient Golemancy and Lalyan Cosmetic Core pages (EN/IT).&#10;- Specify `Mod-issues` as the required email subject for bug reports.">
+      <option name="closed" value="true" />
+      <created>1770145274302</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1770145274302</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -248,6 +257,7 @@
     <MESSAGE value="Add Ancient Golemancy Italian translation and update site content&#10;&#10;- Add Italian translation for Ancient Golemancy (Showcase, Guide, Lore, Documentation, Resources).&#10;- Add mod credits to Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Add &quot;Support the project&quot; section to English and Italian index pages.&#10;- Update Ancient Golemancy showcase images and add a 6th image.&#10;- Refactor Lalyan Cosmetic Core Italian page and add Early Access warning.&#10;- Remove summary line from License pages and fix minor typos in English documentation." />
     <MESSAGE value="Rename site to Lalyan Projects and update base URL&#10;&#10;- Change base URL to `/Lalyan-Projects` and update site title in `astro.config.mjs`.&#10;- Update internal links and license footers across English and Italian documentation pages.&#10;- Update titles and taglines on the main landing pages." />
     <MESSAGE value="Add Issues section to mod documentation pages&#10;&#10;- Add &quot;Issues&quot; section to Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Include contact information and bug reporting guidelines in English and Italian." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Issues section to mod documentation pages&#10;&#10;- Add &quot;Issues&quot; section to Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Include contact information and bug reporting guidelines in English and Italian." />
+    <MESSAGE value="Add email subject guidelines to mod documentation&#10;&#10;- Update Ancient Golemancy and Lalyan Cosmetic Core pages (EN/IT).&#10;- Specify `Mod-issues` as the required email subject for bug reports." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add email subject guidelines to mod documentation&#10;&#10;- Update Ancient Golemancy and Lalyan Cosmetic Core pages (EN/IT).&#10;- Specify `Mod-issues` as the required email subject for bug reports." />
   </component>
 </project>

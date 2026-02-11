@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/documentation.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/documentation.mdx" afterDir="false" />
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Fix JSON key capitalization in Lalyan Cosmetic Core documentation&#10;&#10;- Update `texture` and `icon` keys to `Texture` and `Icon` in the Variants configuration example.">
+      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/documentation.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/documentation.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,14 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1770759144390</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Fix JSON key capitalization in Lalyan Cosmetic Core documentation&#10;&#10;- Update `texture` and `icon` keys to `Texture` and `Icon` in the Variants configuration example.">
+      <option name="closed" value="true" />
+      <created>1770834083556</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1770834083557</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="astro.config.mjs" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minor changes" />
     <MESSAGE value="Add custom CSS for splash template and update mods headers" />
     <MESSAGE value="Add Lalyan Cosmetic Core resources and update sidebar configuration&#10;&#10;- Create resources page for Lalyan Cosmetic Core in English and Italian&#10;- Reorganize sidebar to include a dedicated section for Lalyan Cosmetic Core&#10;- Rename license files from .md to .mdx" />
     <MESSAGE value="Add Lalyan Cosmetic Core preview image and cleanup mods index&#10;&#10;- Add `preview.png` asset for Lalyan Cosmetic Core&#10;- Remove placeholder comments and fix indentation in English and Italian mods pages&#10;- Update IDE workspace configuration" />
@@ -387,6 +393,7 @@
     <MESSAGE value="Add Images header to Lalyan Cosmetic Core pages&#10;&#10;- Add styled &quot;Images&quot; and &quot;Immagini&quot; headers to Lalyan Cosmetic Core pages (EN/IT)." />
     <MESSAGE value="Add changelogs and update Lalyan Cosmetic Core documentation&#10;&#10;- Add changelog pages for Ancient Golemancy and Lalyan Cosmetic Core (EN/IT).&#10;- Add &quot;Changelog&quot; items to the sidebar in `astro.config.mjs`.&#10;- Update Lalyan Cosmetic Core documentation to reflect capitalized JSON keys (e.g., `Model`, `Texture`).&#10;- Add Permissions and Configuration sections to Lalyan Cosmetic Core documentation." />
     <MESSAGE value="Clarify Wardrobe API compatibility in Lalyan Cosmetic Core changelogs&#10;&#10;- Update English and Italian changelogs to specify compatibility with Wardrobe API packs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clarify Wardrobe API compatibility in Lalyan Cosmetic Core changelogs&#10;&#10;- Update English and Italian changelogs to specify compatibility with Wardrobe API packs." />
+    <MESSAGE value="Fix JSON key capitalization in Lalyan Cosmetic Core documentation&#10;&#10;- Update `texture` and `icon` keys to `Texture` and `Icon` in the Variants configuration example." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix JSON key capitalization in Lalyan Cosmetic Core documentation&#10;&#10;- Update `texture` and `icon` keys to `Texture` and `Icon` in the Variants configuration example." />
   </component>
 </project>

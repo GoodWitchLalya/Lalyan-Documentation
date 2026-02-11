@@ -6,11 +6,12 @@ title: Lalyan Cosmetic Core
 <br/>
 <br/>
 
+
 Un'API per registrare e personalizzare cosmetici senza usare gli slot dell'armatura
 
 Modello e texture del Custom Wardrobe sono fatti da [EtherealShigure](https://www.curseforge.com/members/etherealshigure).
 
-## <span style="color:#3598db">Introduzione</span>
+## <span style="color:#3598DB;">Introduzione</span>
 
 Questo plugin permette ai giocatori di personalizzare quale cosmetico hanno equipaggiato, senza dover usare i loro slot dell'armatura
 
@@ -22,7 +23,7 @@ Il Guardaroba Cosmetico può essere craftato in una Builder's Workbench con 4 di
 
 La GUI fornisce un modo semplice per selezionare cosmetici e varianti di cosmetici. Fai clic con il pulsante sinistro su un cosmetico per equipaggiarlo, se il cosmetico ha l'icona della variante, fai clic con il pulsante destro per aprire il menu delle varianti!
 
-## <span style="color:#3598db">Comandi</span>
+## <span style="color:#3598DB;">Comandi</span>
 
 Il plugin ha alcuni comandi che sono principalmente a scopo di test:
 
@@ -37,9 +38,9 @@ Il plugin ha alcuni comandi che sono principalmente a scopo di test:
 *   `/cosmetic clear` rimuove tutti i cosmetici personalizzati e ripristina la skin predefinita. Richiede OP
 
 
-## <span style="color:#3598db">Registrazione dei cosmetici</span>
+## <span style="color:#3598DB;">Registrazione dei cosmetici</span>
 
-<span style="color:#e03e2d">!Attenzione! Ricordati che il nome che dai ad i files è importante!</span>
+<span style="color:#E03E2D;">!Attenzione! Ricordati che il nome che dai ad i files è importante!</span>
 
 Registrare un cosmetico è abbastanza semplice. Dovrai creare un pacchetto di risorse (ovviamente), e avrai bisogno di 3 file essenziali:
 
@@ -61,11 +62,9 @@ CustomID/
 
 La cartella del cosmetico andrà messa all'interno di una certa cartella, a seconda del tipo di cosmetico:
 
-### <span style="color:#236fa1">Cosmetici</span>
+### <span style="color:#236FA1;">Cosmetici</span>
 
-(cose come magliette, cappelli, pantaloni ecc..)
-
-Il percorso base per i cosmetici è `Common/Resources/Cosmetics`, seguito dalla cartella basata sullo slot, che può essere:
+Il percorso base per i cosmetici è `Common/Resources/` (le cartelle `Common/Resources/Cosmetics` e `Common/Resources/Characters` anche sono controllate, per compatibilità con versioni vecchie), seguito dalla cartella basata sullo slot, che può essere:
 
 *   `Capes`
 *   `Ears_Accessories`
@@ -78,6 +77,18 @@ Il percorso base per i cosmetici è `Common/Resources/Cosmetics`, seguito dalla 
 *   `Shoes`
 *   `Undertops`
 *   `Underwears`
+*   `Beards`
+*   `Ears`
+*   `Eyebrows`
+*   `Eyes`
+*   `Faces`
+*   `Mouth`
+*   `Haircuts`
+*   `Hair_Extension`
+*   `Wings`
+*   `Tails`
+*   `Horns`
+*   `Face_Details`
 
 Scegli quale di questi slots deve occupare il tuo cosmetico e inserisci la cartella che hai creato prima.
 
@@ -93,46 +104,13 @@ Custom_Cape/
     └── Custom_Cape.png
 ```
 
-### <span style="color:#236fa1">Parti del Personaggio</span>
+Lo slot Hair_Extension prende automaticamente il gradiente del'acconciatura.
 
-(cose come bocca, orecchie, occhi ecc..)
+## <span style="color:#3598DB;">Varianti (opzionale)</span>
 
-Il percorso base per i cosmetici del personaggio è `Common/Resources/Characters`, seguito dalla cartella basata sullo slot, che può essere:
+<span style="color:#E03E2D;">!Attenzione! Varianti e colori si escludono a vicenda!</span>
 
-*   `Beards`
-*   `Ears`
-*   `Eyebrows`
-*   `Eyes`
-*   `Faces`
-*   `Mouth`
-*   `Haircuts`
-*   `Hair_Extension`
-*   `Wings`
-*   `Tails`
-*   `Horns`
-*   `Face_Details`
-
-Scegli quale di questi slots deve occupare la tua parte per il personaggio e inserisci la cartella che hai creato prima.
-
-Quindi, per un cosmetico del personaggio chiamato `Custom_Eyes`, che si trova nello slot `Eyes`, il percorso sarà questo:
-
-`Common/Resources/Characters/Eyes/Custom_Eyes`, e all'interno della cartella `Custom_Eyes`:
-
-```
-Custom_Eyes/
-├── Custom_Eyes.blockymodel
-├── Custom_Eyes.png
-└── Icon/
-    └── Custom_Eyes.png
-```
-
-Lo slot Hair\_Extension prende automaticamente il gradiente del'acconciatura.
-
-## <span style="color:#3598db">Varianti (opzionale)</span>
-
-<span style="color:#e03e2d">!Attenzione! Varianti e colori si escludono a vicenda!</span>
-
-<span style="color:#e03e2d">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
+<span style="color:#E03E2D;">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
 
 Questa API ti consente anche di aggiungere delle varianti.
 
@@ -164,11 +142,11 @@ Facendo così l'API caricherà: **Propeller\_Hat**, **Propeller\_Hat\_Variant\_C
 
 Saranno viste dall'API come varianti dello stesso cosmetico quindi implicitamente useranno `Propeller_Hat.blockymodel` come modello.
 
-## <span style="color:#3598db">Colori (opzionale)</span>
+## <span style="color:#3598DB;">Colori (opzionale)</span>
 
-> <span style="color:#e03e2d">!Attenzione! Varianti e colori si escludono a vicenda!</span><br/>
+<span style="color:#E03E2D;">!Attenzione! Varianti e colori si escludono a vicenda!</span>
 
-> <span style="color:#e03e2d">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
+<span style="color:#E03E2D;">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
 
 Questa API ti permette anche di aggiungere più colori a un cosmetico!
 
@@ -212,7 +190,7 @@ Sample_Shirt_Colors_Colored_Cotton/
 
 I nomi di modello, texture e icona devono essere solo il nome senza `_Colors_GRADIENTSET`
 
-## <span style="color:#3598db">Cosmetici Avanzati (opzionale)</span>
+## <span style="color:#3598DB;">Cosmetici Avanzati (opzionale)</span>
 
 All'interno della cartella del tuo cosmetico, puoi aggiungere un file `CustomID.json` (in cui CustomID è l'ID del tuo cosmetico). Questo file ti permetterà di personalizzare ancora di più i tuoi cosmetici.
 
@@ -222,54 +200,60 @@ Qui la formattazione corretta del cosmetico di esempio
 
 ```
 {
-    "Model": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.blockymodel",
-    "Texture": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.png",
-    "Icon": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat_Icon.png",
-    "Slot_overrides": [
+    "model": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.blockymodel",
+    "texture": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.png",
+    "icon": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat_Icon.png",
+    "slot_overrides": [
         //Inserisci gli slot qui, per esempio "Head", "Capes" ecc...
     ],
-    "Alternatives": {
+    "alternatives": {
         //QUESTI 2 SONO MUTUALMENTE ESCLUSIVI, O USI LE VARIANTI O I COLORI!!!
         //Scelta 1 (Colori)
-        "Gradient_set": "Hair",
+        "gradient_set": "Hair",
         //Scelta 2 (Varianti)
-        "Variants": {
+        "variants": {
             "Variant": {
-              "Texture": "Resources/Cosmetics/Head/Propeller_Hat/Variant/Variant.png",
-              "Icon": "Resources/Cosmetics/Head/Propeller_Hat/Variant/Variant_Icon.png"
+              "texture": "Resources/Cosmetics/Head/Propeller_Hat/Variant/Variant.png",
+              "icon": "Resources/Cosmetics/Head/Propeller_Hat/Variant/Variant_Icon.png"
             }
         }
+    },
+    "default_color": {
+        "gradient_set": "Hair",
+        "gradient_id": "Red"
     }
 }
 ```
 
 ***
 
-**"Model"** È il percorso del modello di cosmetico base ed eventuali varianti.
+**"model"** È il percorso del modello di cosmetico base ed eventuali varianti.
 
-**"Texture"** È il percorso della texture di cosmetico base ed eventuali varianti.
+**"texture"** È il percorso della texture di cosmetico base ed eventuali varianti.
 
-**"Icon"** È il percorso dell'icona del cosmetico base.
+**"icon"** È il percorso dell'icona del cosmetico base.
 
-**"Alternatives"** Definisce che il cosmetico ha 1 di 2 stili di alternative
+**"alternatives"** Definisce che il cosmetico ha 1 di 2 stili di alternative
 
-### <span style="color:#236fa1">Alternativa di Variante</span>
+**"default_color"** Se il cosmetico utilizza texture in bianco e nero, definisce il colore equipaggiato dallo slot principale
 
-**"Alternatives" >"Variants"** Annuncia la presenza di varianti che saranno elencate.
+### <span style="color:#236FA1;">Alternativa di Variante</span>
 
-**"Alternatives" >"Variants" > "Variant1Name"** Andrà sostituito con il nome della prima variante.
+**"alternatives" >"variants"** Annuncia la presenza di varianti che saranno elencate.
 
-**"Alternatives" >"Variants" > "Variant2Name"** Andrà sostituito con il nome della seconda variante.
+**"alternatives" >"variants" > "variant1Name"** Andrà sostituito con il nome della prima variante.
+
+**"alternatives" >"variants" > "variant2Name"** Andrà sostituito con il nome della seconda variante.
 
 Dentro i nomi delle varianti qui sopra citati ci sono le definizioni dei componenti della variante.
 
-**"Alternatives" >"Variants" > "VariantName" > "Texture"** È il percorso della texture della variante in questione.
+**"alternatives" >"variants" > "variantName" > "texture"** È il percorso della texture della variante in questione.
 
-**"Alternatives" >"Variants" > "VariantName" > "Icon"** È il percorso dell'icona della variante in questione.
+**"alternatives" >"variants" > "variantName" > "icon"** È il percorso dell'icona della variante in questione.
 
-### <span style="color:#236fa1">Alternativa di Colorazione</span>
+### <span style="color:#236FA1;">Alternativa di Colorazione</span>
 
-**"Alternatives" > "gradient\_set"** Il gradiente di colorazioni da usare
+**"alternatives" > "gradient\_set"** Il gradiente di colorazioni da usare
 
 Lista dei gradienti:
 
@@ -286,6 +270,48 @@ Lista dei gradienti:
 *   `Rotten_Fabric`
 *   `Shiny_Fabric`
 *   `Skin`
+
+## <span style="color:#3598DB;">Categorie e Slot custom</span>
+
+Dalla versione 2.0, hai anche modo di creare categorie (I bottoni più a sinistra) e Slot (I bottoni a centro-sinistra).
+
+Le categorie sono puramente cosmetiche, mentre gli slot sono anche usabili nei cosmetici
+
+Schema json Categoria:
+```json
+{
+  "Name": "Capes"
+}
+```
+
+`Name`: Il nome da mostrare, usato anche nell'assegnazione ad uno slot
+
+Schema json Slot:
+```json
+{
+  "Name": "Capes",
+  "Icon": "UI/Custom/Common/Categories/Categories/Capes.png",
+  "SelectedIcon": "UI/Custom/Common/Categories/Categories/Selected/Capes.png",
+  "TopLevelCategory": "Capes",
+  "Camera": {
+    "Distance": 2,
+    "Position_Offset": {
+      "X": 0.0,
+      "Y": -0.3,
+      "Z": 0.0
+    },
+    "LookAtBack": true
+  },
+  "CanVanish": true
+}
+```
+
+`Name`: Il nome da mostrare, usato anche nell'assegnazione ad un cosmetico <br>
+`Icon`: L'icona del bottone <br>
+`SelectedIcon`: L'icona del bottone quando lo slot è selezionato <br>
+`TopLevelCategory`: La categoria del bottone (Vedi sopra) <br>
+`Camera`: Le impostazioni della camera quando selezioni lo slot <br>
+`CanVanish`: Se lo slot ha un bottone di scomparsa (Lo slot "Faces" è l'unico che lo ha a false) <br>
 
 ## <span style="color:#3598db">Permessi (opzionale)</span>
 

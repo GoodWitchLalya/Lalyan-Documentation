@@ -9,7 +9,7 @@ An API to register and customize cosmetics without using armor slots
 
 Custom Wardrobe model and texture are made by [EtherealShigure](https://www.curseforge.com/members/etherealshigure).
 
-## <span style="color:#3598db">Introduction</span>
+## <span style="color:#3598DB;">Introduction</span>
 
 This plugin allows players to customize which cosmetic they have equipped, without having to use up their armor slots
 
@@ -21,7 +21,7 @@ The Cosmetic Wardrobe can be crafted in the Builder's Workbench using 4 of any H
 
 The GUI provides an easy way to select cosmetics and cosmetic variants. Left-click on a cosmetic to equip it, if the cosmetic has the variant icon, right-click it to open the variant menu!
 
-## <span style="color:#3598db">Commands</span>
+## <span style="color:#3598DB;">Commands</span>
 
 The plugin has some commands that are mainly for testing purposes:
 
@@ -36,9 +36,9 @@ The plugin has some commands that are mainly for testing purposes:
 *   `/cosmetic clear` removes all custom cosmetics and resets the default skin. Requires OP
 
 
-## <span style="color:#3598db">Registering cosmetics</span>
+## <span style="color:#3598DB;">Registering cosmetics</span>
 
-<span style="color:#e03e2d">!Warning! Remember that the name you give to the files is important!</span>
+<span style="color:#E03E2D;">!Warning! Remember that the name you give to the files is important!</span>
 
 Registering a cosmetic is quite simple. You'll need to make an asset pack (obviously), and will need 3 files:
 
@@ -60,11 +60,9 @@ CustomID/
 
 Then the cosmetic will go in a certain folder, depending on the type:
 
-### <span style="color:#236fa1">Cosmetics</span>
+### <span style="color:#236FA1;">Cosmetics Slots</span>
 
-(things like shirts, caps, pants etc..)
-
-The base path for cosmetics is `Common/Resources/Cosmetics`, then the folder based on the slot, which can be:
+The base path for cosmetics is `Common/Resources/` (For backwards compatibility the folders `Common/Resources/Cosmetics` and `Common/Resources/Characters` are also checked), then the folder based on the slot, which can be:
 
 *   `Capes`
 *   `Ears_Accessories`
@@ -77,27 +75,6 @@ The base path for cosmetics is `Common/Resources/Cosmetics`, then the folder bas
 *   `Shoes`
 *   `Undertops`
 *   `Underwears`
-
-Then the folder you made before.
-
-So, for a cosmetic called Custom\_Cape, which is in the cape slot it would be like this:
-
-`Common/Resources/Cosmetics/Capes/Custom_Cape` and inside the Custom\_Cape folder:
-
-```
-Custom_Cape/
-├── Custom_Cape.blockymodel
-├── Custom_Cape.png
-└── Icon/
-    └── Custom_Cape.png
-```
-
-### <span style="color:#236fa1">Characters</span>
-
-(things like mouth, ears, eyes etc..)
-
-The base path for character cosmetics is `Common/Resources/Characters`, then the folder based on the slot, which can be:
-
 *   `Beards`
 *   `Ears`
 *   `Eyebrows`
@@ -113,25 +90,25 @@ The base path for character cosmetics is `Common/Resources/Characters`, then the
 
 Then the folder you made before.
 
-So, for a character cosmetic called Custom\_Eyes, which is in the cape slot it would be like this:
+So, for a cosmetic called Custom_Cape, which is in the cape slot it would be like this:
 
-`Common/Resources/Cosmetics/Capes/Custom_Eyes` and inside the Custom\_Eyes folder:
+`Common/Resources/Capes/Custom_Cape` and inside the Custom_Cape folder:
 
 ```
-Custom_Eyes/
-├── Custom_Eyes.blockymodel
-├── Custom_Eyes.png
+Custom_Cape/
+├── Custom_Cape.blockymodel
+├── Custom_Cape.png
 └── Icon/
-    └── Custom_Eyes.png
+    └── Custom_Cape.png
 ```
 
-The Hair\_Extension slot automatically takes the same gradient as the Hairstyle.
+The Hair_Extension slot automatically takes the same gradient as the Hairstyle.
 
-## <span style="color:#3598db">Variants (optional)</span>
+## <span style="color:#3598DB;">Variants (optional)</span>
 
-<span style="color:#e03e2d">!Warning! Variants and colors are mutually exclusive!</span>
+<span style="color:#E03E2D;">!Warning! Variants and colors are mutually exclusive!</span>
 
-<span style="color:#e03e2d">!Warning! Hair extensions cannot have variants nor colors, they changes according to the hairstyle!</span>
+<span style="color:#E03E2D;">!Warning! Hair extensions cannot have variants nor colors, they changes according to the hairstyle!</span>
 
 This API also allows you to add variants.
 
@@ -145,7 +122,7 @@ CustomID_Variant_VariantName.png
 
 The variant icons must have the same name given to the variant texture, but unlike the texture, they must be placed inside the `Icon/` folder.
 
-Taking the Propeller\_Hat as an example:
+Taking the Propeller_Hat as an example:
 
 ```
 Propeller_Hat/
@@ -159,15 +136,15 @@ Propeller_Hat/
     └── Propeller_Hat_Variant_Rainbow.png
 ```
 
-Doing so, the API will load: **Propeller\_Hat**, **Propeller\_Hat\_Variant\_Circus**, **Propeller\_Hat\_Variant\_Rainbow**.
+Doing so, the API will load: **Propeller_Hat**, **Propeller_Hat_Variant_Circus**, **Propeller_Hat_Variant_Rainbow**.
 
 They will be seen by the API as variants of the same cosmetic, so they will implicitly use `Propeller_Hat.blockymodel`
 
-## <span style="color:#3598db">Colors (optional)</span>
+## <span style="color:#3598DB;">Colors (optional)</span>
 
-> <span style="color:#e03e2d">!Warning! Variants and colors are mutually exclusive!</span>
-<br/>
-> <span style="color:#e03e2d">!Warning! Hair extensions cannot have variants nor colors, they changes according to the hairstyle!</span>
+<span style="color:#E03E2D;">!Warning! Variants and colors are mutually exclusive!</span>
+
+<span style="color:#E03E2D;">!Warning! Hair extensions cannot have variants nor colors, they change according to the hairstyle!</span>
 
 This API also allows you to add multiple colors to a cosmetic!
 
@@ -175,7 +152,7 @@ To add colors you need to change the folder of your cosmetic like this: `Cosmeti
 
 The texture has to be grayscale (completely desaturated).
 
-here's a list of all aviable gradient sets:
+here's a list of all available gradient sets:
 
 *   `Colored_Cotton`
 *   `Eyes_Gradient`
@@ -210,7 +187,7 @@ Sample_Shirt_Colors_Colored_Cotton/
 
 model, texture and icon's names have to be just the name without `_Colors_GRADIENTSET`
 
-## <span style="color:#3598db">Advanced Cosmetics (optional)</span>
+## <span style="color:#3598DB;">Advanced Cosmetics (optional)</span>
 
 Inside your cosmetic folder, you can add a `Cosmetic_Id.json` file. This file allows you to customize even more your cosmetics.
 
@@ -221,13 +198,13 @@ Within the JSON file, you are able to change the name and path of the model, tex
     "Model": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.blockymodel",
     "Texture": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.png",
     "Icon": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat_Icon.png",
-    "Slot_overrides": [
+    "SlotOverrides": [
         //Insert slots here, for example "Head", "Capes" etc
     ],
-    "Alternatives": {
+    "alternatives": {
         //THESE 2 ARE MUTUALLY EXCLUSIVE, YOU EITHER HAVE VARIANTS OR COLORS!!!
         //Choice 1 (Colors)
-        "Gradient_set": "Hair",
+        "Gradient_Set": "Hair",
         //Choice 2 (Variants)
         "Variants": {
             "Variant": {
@@ -235,35 +212,41 @@ Within the JSON file, you are able to change the name and path of the model, tex
               "Icon": "Resources/Cosmetics/Head/Propeller_Hat/Variant/Variant_Icon.png"
             }
         }
+    },
+    "Default_Color": {
+        "Gradient_Set": "Hair",
+        "Gradient_Id": "Red"
     }
 }
 ```
 
-**"Model"** Is the path of the base cosmetic model and any variants.
+**"model"** Is the path of the base cosmetic model and any variants.
 
-**"Texture"** Is the path of the base cosmetic texture and any variants.
+**"texture"** Is the path of the base cosmetic texture and any variants.
 
-**"Icon"** Is the path of the base cosmetic icon.
+**"icon"** Is the path of the base cosmetic icon.
 
-**"Alternatives"** Defines that the cosmetic has 1 of 2 alternative styles
+**"alternatives"** Defines that the cosmetic has 1 of 2 alternative styles
 
-### <span style="color:#236fa1">Variant Alternative</span>
+**"default_color"** If your cosmetic is grayscale, this can define which color the main slot should equip
 
-**"Alternatives" > "Variants"** Announces the presence of variants that will be listed.
+### <span style="color:#236FA1;">Variant Alternative</span>
 
-**"Alternatives" > "Variants" > "Variant1Name"** Will be replaced with the name of the first variant.
+**"alternatives" > "variants"** Announces the presence of variants that will be listed.
 
-**"Alternatives" > "Variants" > "Variant2Name"** Will be replaced with the name of the second variant.
+**"alternatives" > "variants" > "variant1Name"** Will be replaced with the name of the first variant.
+
+**"alternatives" > "variants" > "variant2Name"** Will be replaced with the name of the second variant.
 
 Inside the variant names mentioned above are the definitions of the variant components.
 
-**"Alternatives" > "Variants" > "VariantName" > "Texture"** Is the path of the texture of the variant in question.
+**"alternatives" > "variants" > "variantName" > "texture"** Is the path of the texture of the variant in question.
 
-**"Alternatives" > "Variants" > "VariantName" > "Icon"** Is the path of the icon of the variant in question.
+**"alternatives" > "variants" > "variantName" > "icon"** Is the path of the icon of the variant in question.
 
-### <span style="color:#236fa1">Color Alternative</span>
+### <span style="color:#236FA1;">Color Alternative</span>
 
-**"Alternatives" > "Gradient\_set"** Tells the game which gradient set to use
+**"alternatives" > "gradient\_set"** Tells the game which gradient set to use
 
 Gradient List:
 
@@ -281,9 +264,53 @@ Gradient List:
 *   `Shiny_Fabric`
 *   `Skin`
 
+***
+
+## <span style="color:#3598DB;">Custom Categories and Slots</span>
+
+Since version 2.0, you can also add custom Categories (The left-most buttons) and Slots (The middle-left buttons).
+
+Categories are purely cosmetic, while slots can also be used when making a cosmetic
+
+Cosmetic json schema:
+```json
+{
+  "Name": "Capes"
+}
+```
+
+`Name`: The name to display when hovering over the button, also used when assigning it to a slot
+
+Slot json schema:
+```json
+{
+  "Name": "Capes",
+  "Icon": "UI/Custom/Common/Categories/Categories/Capes.png",
+  "SelectedIcon": "UI/Custom/Common/Categories/Categories/Selected/Capes.png",
+  "TopLevelCategory": "Capes",
+  "Camera": {
+    "Distance": 2,
+    "Position_Offset": {
+      "X": 0.0,
+      "Y": -0.3,
+      "Z": 0.0
+    },
+    "LookAtBack": true
+  },
+  "CanVanish": true
+}
+```
+
+`Name`: The name to display when hovering over the button, also used when assigning it to a cosmetic <br>
+`Icon`: The icon of the button <br>
+`SelectedIcon`: The icon of the button used when the slot is the current one being displayed <br>
+`TopLevelCategory`: The category that will be assigned to the slot (see above) <br>
+`Camera`: The camera settings used when this slot is selected <br>
+`CanVanish`: Whether the slot has a vanish button (Faces is the only "vanilla" one that doesn't) <br>
+
 ## <span style="color:#3598db">Permissions (optional)</span>
 
-permissions can be enabled trough the <a href="#enable-permissions">configuration file</a>.
+Permissions can be enabled trough the <a href="#enable-permissions">configuration file</a>.
 
 The permissions are made like this: `lalyancosmeticcore.[FIELD].[ID].[ACTION]`
 

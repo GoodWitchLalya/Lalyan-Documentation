@@ -200,60 +200,60 @@ Qui la formattazione corretta del cosmetico di esempio
 
 ```
 {
-    "model": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.blockymodel",
-    "texture": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.png",
-    "icon": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat_Icon.png",
-    "slot_overrides": [
+    "Model": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.blockymodel",
+    "Texture": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat.png",
+    "Icon": "Resources/Cosmetics/Head/Propeller_Hat/Propeller_Hat_Icon.png",
+    "Slot_overrides": [
         //Inserisci gli slot qui, per esempio "Head", "Capes" ecc...
     ],
-    "alternatives": {
+    "Alternatives": {
         //QUESTI 2 SONO MUTUALMENTE ESCLUSIVI, O USI LE VARIANTI O I COLORI!!!
         //Scelta 1 (Colori)
-        "gradient_set": "Hair",
+        "Gradient_set": "Hair",
         //Scelta 2 (Varianti)
-        "variants": {
+        "Variants": {
             "Variant": {
               "Texture": "Resources/Cosmetics/Head/Propeller_Hat/Variant/Variant.png",
               "Icon": "Resources/Cosmetics/Head/Propeller_Hat/Variant/Variant_Icon.png"
             }
         }
     },
-    "default_color": {
-        "gradient_set": "Hair",
-        "gradient_id": "Red"
+    "Default_color": {
+        "Gradient_set": "Hair",
+        "Gradient_id": "Red"
     }
 }
 ```
 
 ***
 
-**"model"** È il percorso del modello di cosmetico base ed eventuali varianti.
+**"Model"** È il percorso del modello di cosmetico base ed eventuali varianti.
 
-**"texture"** È il percorso della texture di cosmetico base ed eventuali varianti.
+**"Texture"** È il percorso della texture di cosmetico base ed eventuali varianti.
 
-**"icon"** È il percorso dell'icona del cosmetico base.
+**"Icon"** È il percorso dell'icona del cosmetico base.
 
-**"alternatives"** Definisce che il cosmetico ha 1 di 2 stili di alternative
+**"Alternatives"** Definisce che il cosmetico ha 1 di 2 stili di alternative
 
-**"default_color"** Se il cosmetico utilizza texture in bianco e nero, definisce il colore equipaggiato dallo slot principale
+**"Default_color"** Se il cosmetico utilizza texture in bianco e nero, definisce il colore equipaggiato dallo slot principale
 
 ### <span style="color:#236FA1;">Alternativa di Variante</span>
 
-**"alternatives" >"variants"** Annuncia la presenza di varianti che saranno elencate.
+**"Alternatives" >"Variants"** Annuncia la presenza di varianti che saranno elencate.
 
-**"alternatives" >"variants" > "variant1Name"** Andrà sostituito con il nome della prima variante.
+**"Alternatives" >"Variants" > "Variant1Name"** Andrà sostituito con il nome della prima variante.
 
-**"alternatives" >"variants" > "variant2Name"** Andrà sostituito con il nome della seconda variante.
+**"Alternatives" >"Variants" > "Variant2Name"** Andrà sostituito con il nome della seconda variante.
 
 Dentro i nomi delle varianti qui sopra citati ci sono le definizioni dei componenti della variante.
 
-**"alternatives" >"variants" > "variantName" > "texture"** È il percorso della texture della variante in questione.
+**"Alternatives" >"Variants" > "VariantName" > "Texture"** È il percorso della texture della variante in questione.
 
-**"alternatives" >"variants" > "variantName" > "icon"** È il percorso dell'icona della variante in questione.
+**"Alternatives" >"Variants" > "VariantName" > "Icon"** È il percorso dell'icona della variante in questione.
 
 ### <span style="color:#236FA1;">Alternativa di Colorazione</span>
 
-**"alternatives" > "gradient\_set"** Il gradiente di colorazioni da usare
+**"Alternatives" > "gradient\_set"** Il gradiente di colorazioni da usare
 
 Lista dei gradienti:
 

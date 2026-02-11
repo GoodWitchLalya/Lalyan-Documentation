@@ -201,7 +201,7 @@ Within the JSON file, you are able to change the name and path of the model, tex
     "SlotOverrides": [
         //Insert slots here, for example "Head", "Capes" etc
     ],
-    "alternatives": {
+    "Alternatives": {
         //THESE 2 ARE MUTUALLY EXCLUSIVE, YOU EITHER HAVE VARIANTS OR COLORS!!!
         //Choice 1 (Colors)
         "Gradient_Set": "Hair",
@@ -220,33 +220,33 @@ Within the JSON file, you are able to change the name and path of the model, tex
 }
 ```
 
-**"model"** Is the path of the base cosmetic model and any variants.
+**"Model"** Is the path of the base cosmetic model and any variants.
 
-**"texture"** Is the path of the base cosmetic texture and any variants.
+**"Texture"** Is the path of the base cosmetic texture and any variants.
 
-**"icon"** Is the path of the base cosmetic icon.
+**"Icon"** Is the path of the base cosmetic icon.
 
-**"alternatives"** Defines that the cosmetic has 1 of 2 alternative styles
+**"Alternatives"** Defines that the cosmetic has 1 of 2 alternative styles
 
-**"default_color"** If your cosmetic is grayscale, this can define which color the main slot should equip
+**"Default_color"** If your cosmetic is grayscale, this can define which color the main slot should equip
 
 ### <span style="color:#236FA1;">Variant Alternative</span>
 
-**"alternatives" > "variants"** Announces the presence of variants that will be listed.
+**"Alternatives" > "Variants"** Announces the presence of variants that will be listed.
 
-**"alternatives" > "variants" > "variant1Name"** Will be replaced with the name of the first variant.
+**"Alternatives" > "Variants" > "Variant1Name"** Will be replaced with the name of the first variant.
 
-**"alternatives" > "variants" > "variant2Name"** Will be replaced with the name of the second variant.
+**"Alternatives" > "Variants" > "Variant2Name"** Will be replaced with the name of the second variant.
 
 Inside the variant names mentioned above are the definitions of the variant components.
 
-**"alternatives" > "variants" > "variantName" > "texture"** Is the path of the texture of the variant in question.
+**"Alternatives" > "Variants" > "VariantName" > "Texture"** Is the path of the texture of the variant in question.
 
-**"alternatives" > "variants" > "variantName" > "icon"** Is the path of the icon of the variant in question.
+**"Alternatives" > "Variants" > "VariantName" > "Icon"** Is the path of the icon of the variant in question.
 
 ### <span style="color:#236FA1;">Color Alternative</span>
 
-**"alternatives" > "gradient\_set"** Tells the game which gradient set to use
+**"Alternatives" > "Gradient\_set"** Tells the game which gradient set to use
 
 Gradient List:
 

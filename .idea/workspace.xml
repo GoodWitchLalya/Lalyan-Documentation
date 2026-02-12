@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="">
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Update Lalyan Cosmetic Core changelogs and styling&#10;&#10;- Add version 2.0.2 and mark version 2.0.1 as dismissed (EN/IT).&#10;- Update version headers with styling and IDs.&#10;- Add license footer to changelog pages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/changelog.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/changelog.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/changelog.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/changelog.mdx" afterDir="false" />
@@ -396,14 +396,21 @@
       <option name="project" value="LOCAL" />
       <updated>1770854770881</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Update Lalyan Cosmetic Core changelogs and styling&#10;&#10;- Add version 2.0.2 and mark version 2.0.1 as dismissed (EN/IT).&#10;- Update version headers with styling and IDs.&#10;- Add license footer to changelog pages.">
+      <option name="closed" value="true" />
+      <created>1770923801608</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1770923801608</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="astro.config.mjs" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Ancient Golemancy and refactor Lalyan Cosmetic Core pages&#10;&#10;- Add Ancient Golemancy mod section including Showcase, Lore, Guide, Documentation, and Resources pages.&#10;- Add Ancient Golemancy showcase images and update mods index.&#10;- Refactor Lalyan Cosmetic Core structure:&#10;  - Move documentation content to `documentation.mdx`.&#10;  - Convert main page to Showcase and remove old showcase file.&#10;  - Update sidebar navigation links." />
     <MESSAGE value="Update documentation headers and license footers&#10;&#10;- Apply color styling to headers in Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Add and correct license footers across English and Italian documentation.&#10;- Update Italian sidebar translations for Ancient Golemancy in `astro.config.mjs`." />
     <MESSAGE value="Add Ancient Golemancy to Italian mods index&#10;&#10;- Add Ancient Golemancy entry to `src/content/docs/it/mods.mdx`.&#10;- Fix indentation in `src/content/docs/en/mods.mdx`." />
     <MESSAGE value="Refactor Lalyan Cosmetic Core (IT) pages and fix Ancient Golemancy link&#10;&#10;- Move documentation content to `documentation.mdx`&#10;- Convert main page to showcase and delete `showcase.mdx`&#10;- Update header styling in `resources.mdx`&#10;- Fix Ancient Golemancy link in `it/mods.mdx`" />
@@ -428,6 +435,7 @@
     <MESSAGE value="Capitalize JSON keys in Lalyan Cosmetic Core documentation&#10;&#10;- Update JSON configuration examples and field descriptions in English and Italian `documentation.mdx`.&#10;- Capitalize keys (e.g., `Model`, `Texture`, `Alternatives`, `Default_color`) to match the correct configuration format." />
     <MESSAGE value="Update Lalyan Cosmetic Core documentation (EN/IT)&#10;&#10;- Add `--permissions` flag description to `/cosmetic list` command (EN).&#10;- Fix HTML line break tags in English and Italian pages." />
     <MESSAGE value="Update Lalyan Cosmetic Core documentation commands and formatting&#10;&#10;- Expand &quot;Commands&quot; section with detailed parameter descriptions and `/cosmetic perms` usage in English and Italian.&#10;- Format warning messages as blockquotes in registration, variants, and colors sections." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Lalyan Cosmetic Core documentation commands and formatting&#10;&#10;- Expand &quot;Commands&quot; section with detailed parameter descriptions and `/cosmetic perms` usage in English and Italian.&#10;- Format warning messages as blockquotes in registration, variants, and colors sections." />
+    <MESSAGE value="Update Lalyan Cosmetic Core changelogs and styling&#10;&#10;- Add version 2.0.2 and mark version 2.0.1 as dismissed (EN/IT).&#10;- Update version headers with styling and IDs.&#10;- Add license footer to changelog pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Lalyan Cosmetic Core changelogs and styling&#10;&#10;- Add version 2.0.2 and mark version 2.0.1 as dismissed (EN/IT).&#10;- Update version headers with styling and IDs.&#10;- Add license footer to changelog pages." />
   </component>
 </project>

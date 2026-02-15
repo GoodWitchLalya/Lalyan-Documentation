@@ -66,7 +66,7 @@ Puoi trovare maggiori informazioni su come sono scritti i permessi [qui](#permes
 
 ## <span style="color:#3598DB;">Registrazione dei cosmetici</span>
 
-> <span style="color:#E03E2D;">!Attenzione! Ricordati che il nome che dai ad i files è importante!</span>
+<span style="color:#E03E2D;">!Attenzione! Ricordati che il nome che dai ad i files è importante!</span>
 
 Registrare un cosmetico è abbastanza semplice. Dovrai creare un pacchetto di risorse (ovviamente), e avrai bisogno di 3 file essenziali:
 
@@ -134,9 +134,9 @@ Lo slot Hair_Extension prende automaticamente il gradiente del'acconciatura.
 
 ## <span style="color:#3598DB;">Varianti (opzionale)</span>
 
-> <span style="color:#E03E2D;">!Attenzione! Varianti e colori si escludono a vicenda!</span> <br/>
+<span style="color:#E03E2D;">!Attenzione! Varianti e colori si escludono a vicenda!</span> <br/>
 
-> <span style="color:#E03E2D;">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
+<span style="color:#E03E2D;">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
 
 Questa API ti consente anche di aggiungere delle varianti.
 
@@ -150,7 +150,7 @@ CustomID_Variant_NomeVariante.png
 
 Le icone delle varianti devono avere lo stesso nome che abbiamo dato alla texture della variante ma a differenza di essa andranno messe dentro la cartella `Icon/`.
 
-Facendo un esempio con il Propeller\_Hat:
+Facendo un esempio con il Propeller_Hat:
 
 ```
 Propeller_Hat/
@@ -164,15 +164,15 @@ Propeller_Hat/
     └── Propeller_Hat_Variant_Arcobaleno.png
 ```
 
-Facendo così l'API caricherà: **Propeller\_Hat**, **Propeller\_Hat\_Variant\_Circo**, \* _Propeller\_Hat\_Variant\_Arcobaleno_\*.
+Facendo così l'API caricherà: **Propeller_Hat**, **Propeller_Hat_Variant_Circo**, \* _Propeller_Hat_Variant_Arcobaleno_\*.
 
 Saranno viste dall'API come varianti dello stesso cosmetico quindi implicitamente useranno `Propeller_Hat.blockymodel` come modello.
 
 ## <span style="color:#3598DB;">Colori (opzionale)</span>
 
-> <span style="color:#E03E2D;">!Attenzione! Varianti e colori si escludono a vicenda!</span>
+<span style="color:#E03E2D;">!Attenzione! Varianti e colori si escludono a vicenda!</span>
 
-> <span style="color:#E03E2D;">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
+<span style="color:#E03E2D;">!Attenzione! Le estensioni per i capelli (Hair_Extension) non possono avere varianti ne colori, cambiano a seconda del taglio di capelli!</span>
 
 Questa API ti permette anche di aggiungere più colori a un cosmetico!
 
@@ -235,7 +235,7 @@ Qui la formattazione corretta del cosmetico di esempio
     "Alternatives": {
         //QUESTI 2 SONO MUTUALMENTE ESCLUSIVI, O USI LE VARIANTI O I COLORI!!!
         //Scelta 1 (Colori)
-        "Gradient_set": "Hair",
+        "Gradient_Set": "Hair",
         //Scelta 2 (Varianti)
         "Variants": {
             "Variant": {
@@ -244,9 +244,9 @@ Qui la formattazione corretta del cosmetico di esempio
             }
         }
     },
-    "Default_color": {
-        "Gradient_set": "Hair",
-        "Gradient_id": "Red"
+    "Default_Color": {
+        "Gradient_Set": "Hair",
+        "Gradient_Id": "Red"
     }
 }
 ```
@@ -261,7 +261,7 @@ Qui la formattazione corretta del cosmetico di esempio
 
 **"Alternatives"** Definisce che il cosmetico ha 1 di 2 stili di alternative
 
-**"Default_color"** Se il cosmetico utilizza texture in bianco e nero, definisce il colore equipaggiato dallo slot principale
+**"Default_Color"** Se il cosmetico utilizza texture in bianco e nero, definisce il colore equipaggiato dallo slot principale
 
 ### <span style="color:#236FA1;">Alternativa di Variante</span>
 
@@ -279,7 +279,7 @@ Dentro i nomi delle varianti qui sopra citati ci sono le definizioni dei compone
 
 ### <span style="color:#236FA1;">Alternativa di Colorazione</span>
 
-**"Alternatives" > "gradient\_set"** Il gradiente di colorazioni da usare
+**"Alternatives" > "Gradient_Set"** Il gradiente di colorazioni da usare
 
 Lista dei gradienti:
 
@@ -310,7 +310,7 @@ Schema json Categoria:
 }
 ```
 
-`Name`: Il nome da mostrare, usato anche nell'assegnazione ad uno slot
+`Name`: Il nome da mostrare, usato anche nell'assegnazione ad uno slot, ACCETTA SOLO LETTERE GRANDI E PICCOLE, NIENTE NUMERI O CARATTERI SPECIALE
 
 Schema json Slot:
 ```json
@@ -332,12 +332,12 @@ Schema json Slot:
 }
 ```
 
-`Name`: Il nome da mostrare, usato anche nell'assegnazione ad un cosmetico <br/>
-`Icon`: L'icona del bottone <br/>
-`SelectedIcon`: L'icona del bottone quando lo slot è selezionato <br/>
-`TopLevelCategory`: La categoria del bottone (Vedi sopra) <br/>
-`Camera`: Le impostazioni della camera quando selezioni lo slot <br/>
-`CanVanish`: Se lo slot ha un bottone di scomparsa (Lo slot "Faces" è l'unico che lo ha a false) <br/>
+`Name`: Il nome da mostrare, usato anche nell'assegnazione ad un cosmetico, ACCETTA SOLO LETTERE GRANDI E PICCOLE, NIENTE NUMERI O CARATTERI SPECIALE <br>
+`Icon`: L'icona del bottone <br>
+`SelectedIcon`: L'icona del bottone quando lo slot è selezionato <br>
+`TopLevelCategory`: La categoria del bottone (Vedi sopra) <br>
+`Camera`: Le impostazioni della camera quando selezioni lo slot <br>
+`CanVanish`: Se lo slot ha un bottone di scomparsa (Lo slot "Faces" è l'unico che lo ha a false) <br>
 
 ## <span style="color:#3598db">Permessi (opzionale)</span>
 

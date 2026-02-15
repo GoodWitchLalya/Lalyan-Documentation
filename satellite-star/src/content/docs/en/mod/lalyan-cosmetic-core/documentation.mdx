@@ -63,7 +63,7 @@ You can find more info on how permissions are formatted [here](#permissions-opti
 
 ## <span style="color:#3598DB;">Registering cosmetics</span>
 
-> <span style="color:#E03E2D;">!Warning! Remember that the name you give to the files is important!</span>
+<span style="color:#E03E2D;">!Warning! Remember that the name you give to the files is important!</span>
 
 Registering a cosmetic is quite simple. You'll need to make an asset pack (obviously), and will need 3 files:
 
@@ -131,9 +131,9 @@ The Hair_Extension slot automatically takes the same gradient as the Hairstyle.
 
 ## <span style="color:#3598DB;">Variants (optional)</span>
 
-> <span style="color:#E03E2D;">!Warning! Variants and colors are mutually exclusive!</span>
+<span style="color:#E03E2D;">!Warning! Variants and colors are mutually exclusive!</span>
 
-> <span style="color:#E03E2D;">!Warning! Hair extensions cannot have variants nor colors, they changes according to the hairstyle!</span>
+<span style="color:#E03E2D;">!Warning! Hair extensions cannot have variants nor colors, they changes according to the hairstyle!</span>
 
 This API also allows you to add variants.
 
@@ -167,9 +167,9 @@ They will be seen by the API as variants of the same cosmetic, so they will impl
 
 ## <span style="color:#3598DB;">Colors (optional)</span>
 
-> <span style="color:#E03E2D;">!Warning! Variants and colors are mutually exclusive!</span> <br/>
+<span style="color:#E03E2D;">!Warning! Variants and colors are mutually exclusive!</span>
 
-> <span style="color:#E03E2D;">!Warning! Hair extensions cannot have variants nor colors, they change according to the hairstyle!</span>
+<span style="color:#E03E2D;">!Warning! Hair extensions cannot have variants nor colors, they change according to the hairstyle!</span>
 
 This API also allows you to add multiple colors to a cosmetic!
 
@@ -253,7 +253,7 @@ Within the JSON file, you are able to change the name and path of the model, tex
 
 **"Alternatives"** Defines that the cosmetic has 1 of 2 alternative styles
 
-**"Default_color"** If your cosmetic is grayscale, this can define which color the main slot should equip
+**"Default_Color"** If your cosmetic is grayscale, this can define which color the main slot should equip
 
 ### <span style="color:#236FA1;">Variant Alternative</span>
 
@@ -271,7 +271,7 @@ Inside the variant names mentioned above are the definitions of the variant comp
 
 ### <span style="color:#236FA1;">Color Alternative</span>
 
-**"Alternatives" > "Gradient\_set"** Tells the game which gradient set to use
+**"Alternatives" > "Gradient_Set"** Tells the game which gradient set to use
 
 Gradient List:
 
@@ -304,7 +304,7 @@ Cosmetic json schema:
 }
 ```
 
-`Name`: The name to display when hovering over the button, also used when assigning it to a slot
+`Name`: The name to display when hovering over the button, also used when assigning it to a slot, CAN ONLY HAVE UPPERCASE OR LOWERCASE LETTERS, CANNOT HAVE NUMBERS, UNDERSCORES OR ANY OTHER SPECIAL CHARACTER
 
 Slot json schema:
 ```json
@@ -326,12 +326,12 @@ Slot json schema:
 }
 ```
 
-`Name`: The name to display when hovering over the button, also used when assigning it to a cosmetic <br/>
-`Icon`: The icon of the button <br/>
-`SelectedIcon`: The icon of the button used when the slot is the current one being displayed <br/>
-`TopLevelCategory`: The category that will be assigned to the slot (see above) <br/>
-`Camera`: The camera settings used when this slot is selected <br/>
-`CanVanish`: Whether the slot has a vanish button (Faces is the only "vanilla" one that doesn't) <br/>
+`Name`: The name to display when hovering over the button, also used when assigning it to a cosmetic, CAN ONLY HAVE UPPERCASE OR LOWERCASE LETTERS, CANNOT HAVE NUMBERS, UNDERSCORES OR ANY OTHER SPECIAL CHARACTER <br>
+`Icon`: The icon of the button <br>
+`SelectedIcon`: The icon of the button used when the slot is the current one being displayed <br>
+`TopLevelCategory`: The category that will be assigned to the slot (see above) <br>
+`Camera`: The camera settings used when this slot is selected <br>
+`CanVanish`: Whether the slot has a vanish button (Faces is the only "vanilla" one that doesn't) <br>
 
 ## <span style="color:#3598db">Permissions (optional)</span>
 

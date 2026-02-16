@@ -6,8 +6,9 @@ interface Props {
 }
 
 const { version } = Astro.props;
+const color = "#3598DB";
 ---
 
-<Update version={version} color="#3598DB">
+<Update version={version} color={color}>
 <slot />
 </Update>

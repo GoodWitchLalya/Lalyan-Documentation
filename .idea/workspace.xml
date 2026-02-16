@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Update Lalyan Cosmetic Core documentation and components&#10;&#10;- Wrap warning messages in blockquotes in English and Italian documentation.&#10;- Remove trailing whitespace from version titles in the English changelog.&#10;- Extract color value to a constant in the `MinorUpdate` component." />
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Fix formatting in Lalyan Cosmetic Core documentation&#10;&#10;- Add missing `&lt;br/&gt;` tags to warning block and permission examples.&#10;- Update `&lt;br&gt;` to self-closing `&lt;br/&gt;` in slot parameter descriptions." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -448,14 +448,21 @@
       <option name="project" value="LOCAL" />
       <updated>1771239011973</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Fix formatting in Lalyan Cosmetic Core documentation&#10;&#10;- Add missing `&lt;br/&gt;` tags to warning block and permission examples.&#10;- Update `&lt;br&gt;` to self-closing `&lt;br/&gt;` in slot parameter descriptions.">
+      <option name="closed" value="true" />
+      <created>1771239526974</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1771239526974</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="astro.config.mjs" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add email subject guidelines to mod documentation&#10;&#10;- Update Ancient Golemancy and Lalyan Cosmetic Core pages (EN/IT).&#10;- Specify `Mod-issues` as the required email subject for bug reports." />
     <MESSAGE value="Replace Ko-fi LinkCard with interactive widget on index pages&#10;&#10;- Create `KofiWidget_en` and `KofiWidget_it` components.&#10;- Replace static support LinkCard with the new widget in English and Italian index pages." />
     <MESSAGE value="Add .idea to .gitignore&#10;&#10;- Add `.idea/` to `.gitignore`." />
     <MESSAGE value="Refactor KofiWidget components and update site configuration&#10;&#10;- Rename `KofiWidget` components to `en.astro` and `it.astro` and update imports in index pages.&#10;- Add `/kofi` redirect in `astro.config.mjs`.&#10;- Fix typo in Italian index page title.&#10;- Remove unused Ancient Golemancy showcase icon." />
@@ -480,6 +487,7 @@
     <MESSAGE value="Fix punctuation in Lalyan Cosmetic Core changelogs&#10;&#10;- Add missing periods to changelog entries in English and Italian.&#10;- Update &quot;bug&quot; to &quot;bugs&quot; in the Italian changelog." />
     <MESSAGE value="Refactor Lalyan Cosmetic Core changelogs and add layout components&#10;&#10;- Add new Astro components for changelog titles (`HugeUpdate`, `MajorUpdate`, `MinorUpdate`) and content wrappers.&#10;- Refactor English and Italian changelog pages to use the new components instead of raw HTML.&#10;- Add note indicating the changelog starts from version 2.0.0." />
     <MESSAGE value="Update Lalyan Cosmetic Core documentation and components&#10;&#10;- Wrap warning messages in blockquotes in English and Italian documentation.&#10;- Remove trailing whitespace from version titles in the English changelog.&#10;- Extract color value to a constant in the `MinorUpdate` component." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Lalyan Cosmetic Core documentation and components&#10;&#10;- Wrap warning messages in blockquotes in English and Italian documentation.&#10;- Remove trailing whitespace from version titles in the English changelog.&#10;- Extract color value to a constant in the `MinorUpdate` component." />
+    <MESSAGE value="Fix formatting in Lalyan Cosmetic Core documentation&#10;&#10;- Add missing `&lt;br/&gt;` tags to warning block and permission examples.&#10;- Update `&lt;br&gt;` to self-closing `&lt;br/&gt;` in slot parameter descriptions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix formatting in Lalyan Cosmetic Core documentation&#10;&#10;- Add missing `&lt;br/&gt;` tags to warning block and permission examples.&#10;- Update `&lt;br&gt;` to self-closing `&lt;br/&gt;` in slot parameter descriptions." />
   </component>
 </project>

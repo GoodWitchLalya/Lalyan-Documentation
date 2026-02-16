@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/components/Unlanguaged/LayoutElements/Changelog/Title/MinorUpdate.astro" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/components/Unlanguaged/LayoutElements/Changelog/Title/MinorUpdate.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/changelog.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/changelog.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/documentation.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/en/mod/lalyan-cosmetic-core/documentation.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/documentation.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/satellite-star/src/content/docs/it/mod/lalyan-cosmetic-core/documentation.mdx" afterDir="false" />
-    </list>
+    <list default="true" id="d717d390-f33e-4030-b3c4-8666c3f9ec3c" name="Changes" comment="Update Lalyan Cosmetic Core documentation and components&#10;&#10;- Wrap warning messages in blockquotes in English and Italian documentation.&#10;- Remove trailing whitespace from version titles in the English changelog.&#10;- Extract color value to a constant in the `MinorUpdate` component." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -446,14 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1770936254268</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Update Lalyan Cosmetic Core documentation and components&#10;&#10;- Wrap warning messages in blockquotes in English and Italian documentation.&#10;- Remove trailing whitespace from version titles in the English changelog.&#10;- Extract color value to a constant in the `MinorUpdate` component.">
+      <option name="closed" value="true" />
+      <created>1771239011973</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1771239011973</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="astro.config.mjs" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Issues section to mod documentation pages&#10;&#10;- Add &quot;Issues&quot; section to Ancient Golemancy and Lalyan Cosmetic Core pages.&#10;- Include contact information and bug reporting guidelines in English and Italian." />
     <MESSAGE value="Add email subject guidelines to mod documentation&#10;&#10;- Update Ancient Golemancy and Lalyan Cosmetic Core pages (EN/IT).&#10;- Specify `Mod-issues` as the required email subject for bug reports." />
     <MESSAGE value="Replace Ko-fi LinkCard with interactive widget on index pages&#10;&#10;- Create `KofiWidget_en` and `KofiWidget_it` components.&#10;- Replace static support LinkCard with the new widget in English and Italian index pages." />
     <MESSAGE value="Add .idea to .gitignore&#10;&#10;- Add `.idea/` to `.gitignore`." />
@@ -478,6 +479,7 @@
     <MESSAGE value="Fix typo in Lalyan Cosmetic Core Italian changelog&#10;&#10;- Correct &quot;Aggiunto&quot; to &quot;Aggiunta&quot; in version 2.0.0 notes." />
     <MESSAGE value="Fix punctuation in Lalyan Cosmetic Core changelogs&#10;&#10;- Add missing periods to changelog entries in English and Italian.&#10;- Update &quot;bug&quot; to &quot;bugs&quot; in the Italian changelog." />
     <MESSAGE value="Refactor Lalyan Cosmetic Core changelogs and add layout components&#10;&#10;- Add new Astro components for changelog titles (`HugeUpdate`, `MajorUpdate`, `MinorUpdate`) and content wrappers.&#10;- Refactor English and Italian changelog pages to use the new components instead of raw HTML.&#10;- Add note indicating the changelog starts from version 2.0.0." />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor Lalyan Cosmetic Core changelogs and add layout components&#10;&#10;- Add new Astro components for changelog titles (`HugeUpdate`, `MajorUpdate`, `MinorUpdate`) and content wrappers.&#10;- Refactor English and Italian changelog pages to use the new components instead of raw HTML.&#10;- Add note indicating the changelog starts from version 2.0.0." />
+    <MESSAGE value="Update Lalyan Cosmetic Core documentation and components&#10;&#10;- Wrap warning messages in blockquotes in English and Italian documentation.&#10;- Remove trailing whitespace from version titles in the English changelog.&#10;- Extract color value to a constant in the `MinorUpdate` component." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Lalyan Cosmetic Core documentation and components&#10;&#10;- Wrap warning messages in blockquotes in English and Italian documentation.&#10;- Remove trailing whitespace from version titles in the English changelog.&#10;- Extract color value to a constant in the `MinorUpdate` component." />
   </component>
 </project>
